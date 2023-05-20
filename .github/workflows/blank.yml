@@ -17,3 +17,5 @@ name: CI
             repo-token: $
             repo-token-user-login: 'github-actions[bot]' # The user.login for temporary GitHub tokens
             allow-repeats: false # This is the default
+- name: Lint Markdown
+  uses: tomwhross/write-good-action@v1.6
